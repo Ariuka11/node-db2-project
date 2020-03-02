@@ -7,6 +7,8 @@ exports.up = async function(knex) {
         table.text("model").notNull()
         table.float("year", [1], [1]).notNull()
         table.float("mileage").notNull()
+        table.string("transmission").nullable()
+        table.string("title").nullable()
     })
 };
 
