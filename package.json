@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "server": "nodemon index.js",
+        "watch": "nodemon index.js",
         "start": "index.js"
     },
     "author": "Lambda School",
