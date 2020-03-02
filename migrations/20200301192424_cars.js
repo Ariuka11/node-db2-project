@@ -5,7 +5,7 @@ exports.up = async function(knex) {
         table.increments("id")
         table.text("make").notNull()
         table.text("model").notNull()
-        table.float("year").notNull()
+        table.float("year", [1], [1]).notNull()
         table.float("mileage").notNull()
     })
 };
